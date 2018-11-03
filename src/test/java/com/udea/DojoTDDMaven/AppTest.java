@@ -39,8 +39,8 @@ public class AppTest
 	}
 	
 	
-	public void testGuessOneFailAndThreeMatch(){
-		result = code.guess("0234");
+	public void GuessOneFailAndThreeMatch(){
+		result  code.guess("0234");
 		assertEquals("xxx", result);
 	}
 	
